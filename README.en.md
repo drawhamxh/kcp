@@ -188,6 +188,7 @@ Both the use and configuration of the protocol is straightforward, in most cases
 - [KcpTransport](https://github.com/Cysharp/KcpTransport): KcpTransport is built on top of KCP ported to Pure C#, with implementations of Syn Cookie handshake, connection management, Unreliable communication, and KeepAlive. In the future, encryption will also be supported.
 - [Kcp-CSharp](https://github.com/Molth/Kcp-CSharp): a pure C# KCP instance callback(delegate) wrapper for (Unity/Godot/.NET)
 - [kcp2k](https://github.com/vis2k/kcp2k/): Line-by-line translation to C#, with optional Server/Client on top.
+- [KcpSharpN](https://github.com/new1271/KcpSharpN): The csharp version of KCP, translated from the original C code, includes a simple wrapper of the protocol for easy use, but also allows calling the functions of the KCP protocol directly (just like C code)
 - [kcp-rs](https://github.com/en/kcp-rs): The rust migration of KCP
 - [kcp-rust-native](https://github.com/b23r0/kcp-rust-native)：KCP bindings for Rust
 - [lua-kcp](https://github.com/linxiaolong/lua-kcp): Lua extension of KCP, applicable for Lua server
